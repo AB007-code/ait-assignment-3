@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let positive=0;
+        let negative=0;
+        let arr = [-1,2,-5,8,5,-9];
+        for(let i=0; i<=arr.length-1; i++){
+            if(arr[i]>=0){
+             positive+=1;
+            }else{
+                negative+=1;
+            }
+        }
+        document.write(positive+'<br/>');
+        document.write(negative);
+    </script>
+</body>
+</html>
